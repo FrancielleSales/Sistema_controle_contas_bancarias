@@ -46,15 +46,13 @@ public class Banco {
 			c.relatorio();
 		}
 
-
-
-/*
 		System.out.println("\n\n---- Testando a conta especial - saldo negativo ------------");
 		Conta contaesp = contas.get(2);
 		contaesp.saque(10000f);
 		contaesp.saque(1000f);
 		contaesp.relatorio();
 
+		/*
 		// ordena as contas por saldo do maior para o menor
 		contas.sort(new ComparadorSaldoDec());
 		// apresenta relatorio com dados das contas, titulares, movimentaçoes e saldo
