@@ -52,14 +52,17 @@ public class Banco {
 		contaesp.saque(1000f);
 		contaesp.relatorio();
 
-		/*
+
 		// ordena as contas por saldo do maior para o menor
 		contas.sort(new ComparadorSaldoDec());
+
+
 		// apresenta relatorio com dados das contas, titulares, movimentaçoes e saldo
 		System.out.println("\n\n---- Relatorio ordenado pelo Saldo Dec ----------------------");
 		for (Conta c: contas) {
 			c.relatorio();
 		}
+/*
 
 		System.out.println("\n\n---- Criando lista única com todas as contas e clientes---");
 		List<ElementosDoBanco> elementos = new LinkedList<>();
