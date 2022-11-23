@@ -62,7 +62,6 @@ public class Banco {
 		for (Conta c: contas) {
 			c.relatorio();
 		}
-/*
 
 		System.out.println("\n\n---- Criando lista única com todas as contas e clientes---");
 		List<ElementosDoBanco> elementos = new LinkedList<>();
@@ -72,7 +71,5 @@ public class Banco {
 		for (ElementosDoBanco e: elementos) {
 			System.out.println(e.getElementoInfo());
 		}
-*/
-
 	}
 }

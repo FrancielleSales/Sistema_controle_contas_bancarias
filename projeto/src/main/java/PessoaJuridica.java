@@ -44,4 +44,21 @@ public class PessoaJuridica extends Pessoa{
                 ", nome= '" + getNome() + '\'' +
                 '}';
     }
+
+    @Override
+    public String getElementoInfo() {
+        String tipo = "PessoaJuridica";
+        String cnpj = "cnpj=" + getCnpj();
+        String cidade = "cidade=" + getCidade();
+        String estado = "estado=" + getEstado();
+        String nome = "nome=" + getNome();
+
+        String elementoInfo = tipo + "["
+                + cnpj + ", "
+                + cidade + ", "
+                + estado + ", "
+                + nome + "]";
+
+        return elementoInfo;
+    }
 }

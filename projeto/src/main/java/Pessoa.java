@@ -1,4 +1,6 @@
-public class Pessoa {
+import java.util.List;
+
+public class Pessoa implements ElementosDoBanco {
     private String nome;
 
     public String getNome() {
@@ -14,5 +16,10 @@ public class Pessoa {
         return "Pessoa{" +
                 "nome='" + nome + '\'' +
                 '}';
+    }
+
+    @Override
+    public String getElementoInfo() {
+        return null;
     }
 }

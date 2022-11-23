@@ -1,5 +1,7 @@
-public class ElementosDoBanco {
+import java.util.List;
 
-    private Pessoa pessoa;
-    private Conta conta;
+public interface ElementosDoBanco {
+
+
+    String getElementoInfo();
 }

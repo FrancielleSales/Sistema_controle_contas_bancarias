@@ -55,4 +55,25 @@ public class PessoaFisica extends Pessoa{
                 ", nome='" + getNome() + '\'' +
                 '}';
     }
+
+    @Override
+    public String getElementoInfo() {
+        String tipo = "PessoaFisica";
+        String cpf = "cpf=" + getCpf();
+        String dataNascimento = "dataNascimento=" + getDataNasc();
+        String rg = "rg=" + getRg();
+        String renda = "renda=" + getRenda();
+        String nome = "nome=" + getNome();
+
+
+
+        String elementoInfo = tipo + "["
+                + cpf + ", "
+                + dataNascimento + ", "
+                + rg + ", "
+                + renda + ", "
+                + nome + "]";
+
+        return elementoInfo;
+    }
 }
